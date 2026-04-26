@@ -1,0 +1,15 @@
+Kolom,Tipe,Deskripsi
+Age,int,Usia karyawan (tahun)
+Gender,str,Jenis kelamin (Male/Female)
+JobRole,str,Posisi jabatan
+Experience,int,Lama pengalaman kerja (tahun)
+WorkHoursPerWeek,int,Rata-rata jam kerja per minggu
+RemoteRatio,int,Persentase kerja remote (%)
+SatisfactionLevel,float,Skor kepuasan kerja (1–5)
+StressLevel,int,Tingkat stres (1–10)
+Burnout,int (0/1),"Label target burnout (0=Tidak, 1=Ya)"
+RiskLevel,str (Rendah/Sedang/Tinggi),Label risiko multi-kelas
+StressWorkRatio,float,Rasio stres terhadap beban kerja
+WorkLifeScore,float,Skor keseimbangan kerja-kehidupan
+HighRiskFlag,int (0/1),Flag risiko tinggi (stres & jam kerja ekstrem)
+SeniorEmployee,int (0/1),Flag karyawan senior (≥10 tahun)
